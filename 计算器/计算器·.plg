@@ -1,0 +1,19 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 數呾ん﹞ - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/數呾ん﹞.pdb" /debug /machine:I386 /out:"Debug/數呾ん﹞.exe" /pdbtype:sept  ".\Debug\StdAfx.obj" ".\Debug\數呾ん﹞.obj" ".\Debug\數呾ん﹞Dlg.obj" ".\Debug\數呾ん﹞.res" "
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+數呾ん﹞.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

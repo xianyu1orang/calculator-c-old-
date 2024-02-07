@@ -1,0 +1,271 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+// Generated Help ID header file
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.hm"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\计算器·.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\计算器·.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 114
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 计算器·"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,21,21
+    LTEXT           "计算器· 1.3版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+    LTEXT           "本辅助工具为咸鱼_空知制作。",IDC_STATIC,40,33,119,10
+    LTEXT           "使用vc的mfc工程制成。",IDC_STATIC,40,44,126,11
+    LTEXT           "本软件不用于商业用途，请勿追究于作品本",IDC_STATIC,39,
+                    55,157,12
+    LTEXT           "身，允许私自传播及学习使用。",IDC_STATIC,39,70,152,14
+    LTEXT           "作者QQ：1660838232",IDC_STATIC,39,86,150,10
+END
+
+IDD_MY_DIALOG DIALOGEX 0, 0, 362, 311
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "计算器·"
+FONT 9, "宋体"
+BEGIN
+    EDITTEXT        IDC_EDIT1,25,17,181,33,ES_MULTILINE | WS_HSCROLL,0,
+                    HIDC_EDIT1
+    PUSHBUTTON      "=",IDC_jieguo,283,21,50,27
+    PUSHBUTTON      "←",IDC_chehui,222,21,50,27
+    GROUPBOX        "数据处理",IDC_STATIC,25,62,189,176
+    PUSHBUTTON      "0",IDC_0,35,75,50,27
+    PUSHBUTTON      "1",IDC_1,36,109,50,27
+    PUSHBUTTON      "2",IDC_2,95,109,50,27
+    PUSHBUTTON      "3",IDC_3,153,109,50,27
+    PUSHBUTTON      "4",IDC_4,36,143,50,27
+    PUSHBUTTON      "5",IDC_5,95,143,50,27
+    PUSHBUTTON      "6",IDC_6,153,143,50,27
+    PUSHBUTTON      "7",IDC_7,36,175,50,27
+    PUSHBUTTON      "8",IDC_8,95,175,50,27
+    PUSHBUTTON      "9",IDC_9,153,175,50,27
+    PUSHBUTTON      ".",IDC_dian,96,76,50,27
+    PUSHBUTTON      "AC",IDC_AC,153,75,50,27
+    PUSHBUTTON      "CE",IDC_CE,236,74,50,27
+    GROUPBOX        "计算符号",IDC_STATIC,233,105,114,142
+    PUSHBUTTON      "+",IDC_jia,236,120,50,27
+    PUSHBUTTON      "-",IDC_jian,294,119,50,27
+    PUSHBUTTON      "*",IDC_cheng,236,152,50,27
+    PUSHBUTTON      "/",IDC_chu,294,152,50,27
+    PUSHBUTTON      "%",IDC_mo,236,183,50,27
+    PUSHBUTTON      "+/-",IDC_qufan,293,183,50,27
+    CONTROL         "编辑",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | NOT 
+                    WS_VISIBLE | WS_TABSTOP,295,78,47,17
+    PUSHBUTTON      "help",IDC_help,293,260,50,27
+    PUSHBUTTON      "^",IDC_mi,236,215,50,27
+    CONTROL         "高级",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    295,54,47,17
+    PUSHBUTTON      "E",IDC_E,36,205,50,27
+    PUSHBUTTON      "PI",IDC_PI,95,205,50,27
+    PUSHBUTTON      "还原",IDC_huanyuan,153,205,50,27
+    CONTROL         "管理员",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | NOT 
+                    WS_VISIBLE | WS_TABSTOP,236,53,47,17
+    GROUPBOX        "Static",IDC_STATIC,25,243,189,61,NOT WS_VISIBLE
+    PUSHBUTTON      "1/x",IDC_1x,35,254,50,27,NOT WS_VISIBLE
+END
+
+IDD_DIALOG1 DIALOG DISCARDABLE  0, 0, 187, 95
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "对话"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,130,7,50,14
+    PUSHBUTTON      "取消",IDCANCEL,130,24,50,14
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "计算器· Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "计算器·\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2017\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "计算器·.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "计算器· 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 107
+    END
+
+    IDD_MY_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 355
+        VERTGUIDE, 353
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 304
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 计算器·(&A)..."
+END
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\计算器·.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
